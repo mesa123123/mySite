@@ -1,46 +1,42 @@
 body {
-    width: 100vw;
-    height: 100vh;
+    width: 89.6vw;
+    height: 89.6vh;
     margin: 0%;
-    background-color: #ffffffcc;    
+    background-image: url('../Static/images/nyny.jpg');
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
 }
 
-nav {
-    min-height: 10vh;
-    min-width: 100vw;
-    background-color: #000000cc;
-    color: white;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-content: space-around;
-    position: fixed;
+#container {
+    background-color: #ffffffff;
+    border-style: solid;
+    border-color: black;
+    border: 0.1vh 0.1vh 0.1vh 0.1vh;
+    width: 90%;
+    height: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
-nav button {
-    font-family: 'Fresca', sans-serif;
-    background: transparent;
-    color: white;
-    border: none;
-    font-size: 3vh;
-}
-
-nav button:hover {
-    margin-top: 2vh;
-    margin-bottom: 2vh;
-    font-family: 'Fresca', sans-serif;
-    color: #FFDF00;
-}
-
-#TitleSec {
-    height: 90vh;
-    width: 100vw;
-    justify-content: right;
+#TitleSec { 
+    height: 100%;
+    width: 30%;
+    justify-content: center;
     align-content: bottom;
+}
+
+#TitleInfos {
+    border: 1px solid black;
+    height: 100%;
+    display: flexbox;
+    justify-content: center;
+    align-items: center
 }
 
 #Sig {
